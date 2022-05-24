@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BMI HOSPITAL FORM</title>
+    <style>
+    h2{
+        background-color: yellow;
+    }
+    </style>
+</head>
+
+<body style="background-color:powderblue;">
+    <h1><u>BMRI HOSPITAL</u></h1>
+    <h2>Admission Of Covid19 Patients</h2>
+    <h4>Personal Details</h4>
+    <form action="backend.php">
+        <label for="fname">First Name</label>
+        <div>
+            <input type="text" name="myName" id="fname">
+        </div>
+        <br>
+        <label for="mname">Mid Name</label>
+        <div>
+            <input type="text" name="myName" id="mname">
+        </div>
+        <br>
+        <label for="lname">Last Name</label>
+        <div>
+            <input type="text" name="myName" id="lname">
+        </div>
+        <br>
+        <div>
+            Date of Birth: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+
+        <br>
+        <div>
+            Phone Number: <input type="number" name="myphonenumber">
+            Emergency No.: <input type="number" name="emergency">
+        </div>
+        <br>
+        
+        <div>
+            Are you eligible?: <input type="checkbox" name="myEligibility" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+
+        <br>
+        <div>
+            Address: <br><textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+
+        <br>
+        <div>
+            Parmanent Address: <br><textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+
+        <br>
+        <div>
+            Pin code: <input type="number" name="mypin">
+            Zip Code: <input type="number" name="myzip">
+        </div>
+        <br>
+        <h4>Insurance Information</h4>
+        <label for="PrimaryINS">Primary Insurance</label>
+        
+            <input type="text" name="myName" id="PrimaryINS">
+            <label for="SecondINS">Secondary Insurance</label>
+        
+            <input type="text" name="myName" id="SecondINS">
+        
+        <br>
+        <br>
+        <label for="policy">Policy</label>
+        <div>
+            <input type="text" name="myName" id="policy">
+        </div>
+        <br>
+        <label for="Group">Group</label>
+        <div>
+            <input type="text" name="myName" id="Group">
+        </div>
+        <br>
+        <label for="Holdername"> Policy Holder Name</label>
+        <div>
+            <input type="text" name="myName" id="Holdername">
+            Date of Birth: <input type="date" name="Date">
+        </div>
+        <br>
+        <label for="PRWH">Patient Relationship With Policy Holder </label>
+        <div>
+            <input type="text" name="myName" id="PRWH">
+        </div>
+        <br>
+
+        <div>
+            Lab Confirmed Case of covid 19 in the past 14 days:   Yes <input type="radio" name="myGender"> No <input type="radio" name="myGender">
+        
+        </div>
+
+        <br>
+        <h4>Symptoms of Patient:</h4>
+        <div>
+            Fever: <input type="checkbox" name="myEligibility" checked><br>
+            Headache: <input type="checkbox" name="myEligibility" checked><br>
+            Loss of Taste: <input type="checkbox" name="myEligibility" checked><br>
+            Loss of Smell: <input type="checkbox" name="myEligibility" checked><br>
+            Body Pain: <input type="checkbox" name="myEligibility" checked><br>
+            Others: <input type="checkbox" name="myEligibility" checked><br>
+        </div>
+        <br>
+
+
+        <div>
+            <label for="state">Select State</label>
+            <select name="mystate" id="state">
+                <option value="Wb">West Bengal</option>
+                <option value="Kol" selected>Kolkata</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Aadhar Card Number: <input type="number" name="Adharnumber">
+           
+        </div>
+        <br>
+        <div>
+            <label for="nationality">Nationality</label>
+            <select name="mynationality" id="nationality">
+                <option value="Ind">Indian</option>
+                <option value="Hon" selected>Honduran</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="religion">Religion</label>
+            <select name="myreligion" id="religion">
+                <option value="Islm">Islam</option>
+                <option value="Hindu" selected>Hindu</option>
+            </select>
+        </div>
+        <br>
+        <h4>Physician Information</h4>
+        <label for="namePhy">Name Of Physician</label>
+        <div>
+            <input type="text" name="myName" id="namePhy">
+            Phone Number: <input type="number" name="Physiciannumber">
+        </div>
+        <br>
+        <div>
+            Address: <br><textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+
+        <br>
+        <label for="city">City</label>
+        
+            <input type="text" name="myName" id="city">
+            <label for="state">State</label>
+        
+            <input type="text" name="myName" id="state">
+            
+        
+        <br>
+        <h4>I acknowledge the above information is true and correct. I here by authorize treatment and understand the possible benefits of treatment.
+            <br>
+            Patient Signature : ---------------------------- Date:-------------------------------
+        </h4>
+
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
